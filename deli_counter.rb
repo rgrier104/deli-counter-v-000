@@ -15,4 +15,5 @@ end
 
 def take_a_number(array, string)
   puts "Welcome, #{string}. You are number #{array.length+1} in line."
+  array << string
 end
