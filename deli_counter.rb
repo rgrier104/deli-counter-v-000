@@ -12,3 +12,7 @@ def line(array)
     puts statement
   end
 end
+
+def take_a_number(array, string)
+  puts "Welcome, #{string}. you are number #{array.length}."
+end
